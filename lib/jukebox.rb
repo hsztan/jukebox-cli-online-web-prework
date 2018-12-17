@@ -1,3 +1,5 @@
+require "pry"
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -28,6 +30,7 @@ def play(songs)
   id = ""
   puts "Please enter a song name or number:"
   gets.chomp(id)
+  binding.pry
   if songs.include?(id) || id.to_i <= songs.length
     if id.to_i != 0
       puts "Playing #{id}"
