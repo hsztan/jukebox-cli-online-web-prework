@@ -29,12 +29,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   id = gets.chomp
-  if songs.include?(id) || id.to_i <= songs.length
-    if id.to_i == 0
+  if songs.include?(id)
       puts "Playing #{id}"
-    else
+  elsif id.to_i != 0 && id.to_i <= songs.length
       puts "Playing #{songs[id.to_i - 1 ]}"
-    end
   else
     puts "Invalid input, please try again"
   end
