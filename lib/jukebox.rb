@@ -49,7 +49,7 @@ def run
   do
     puts "Please enter a command:"
     input = gets.chomp
-    if input == "exit" {break}
+    break if input == "exit"
   end
   exit_jukebox
 
