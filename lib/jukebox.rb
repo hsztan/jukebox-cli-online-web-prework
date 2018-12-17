@@ -32,7 +32,7 @@ def play(songs)
   id = gets.chomp
   binding.pry
   if songs.include?(id) || id.to_i <= songs.length
-    if id.to_i != 0
+    if id.to_i == 0
       puts "Playing #{id}"
     else
       puts "Playing #{songs[id.to_i - 1 ]}"
