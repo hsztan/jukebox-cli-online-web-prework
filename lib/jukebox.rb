@@ -60,7 +60,6 @@ def run
         exit_jukebox
         break
     end
-
   end
 
   exit_jukebox
