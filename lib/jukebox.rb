@@ -46,7 +46,7 @@ end
 
 def run
   input = ""
-  do
+  loop do
     puts "Please enter a command:"
     input = gets.chomp
     break if input == "exit"
