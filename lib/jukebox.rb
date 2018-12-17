@@ -50,9 +50,10 @@ def run
     puts "Please enter a command:"
     input = gets.chomp
     break if input == "exit"
-  end
-  exit_jukebox
 
+  end
+
+  exit_jukebox
 end
 
 #list(songs)
