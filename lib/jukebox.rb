@@ -29,7 +29,7 @@ end
 def play(songs)
   id = ""
   puts "Please enter a song name or number:"
-  gets.chomp(id)
+  id = gets.chomp
   binding.pry
   if songs.include?(id) || id.to_i <= songs.length
     if id.to_i != 0
