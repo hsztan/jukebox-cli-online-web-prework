@@ -60,3 +60,5 @@ def run(my_songs)
       end
     end
   end
+
+run (my_songs)
