@@ -31,6 +31,7 @@ def play(songs)
     #code to puts out "Playing <song name>"
   else
     puts "Invalid input, please try again"
+  end
 end
 
 list(songs)
