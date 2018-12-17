@@ -49,9 +49,9 @@ def run(my_songs)
       input = gets.strip
       case input
         when "list"
-          list(songs)
+          list(my_songs)
         when "play"
-          play(songs)
+          play(my_songs)
         when "help"
           help
         when "exit"
@@ -61,4 +61,4 @@ def run(my_songs)
     end
   end
 
-run (my_songs)
+run(my_songs)
