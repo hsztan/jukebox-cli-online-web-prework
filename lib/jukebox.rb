@@ -39,3 +39,4 @@ def play(songs)
 end
 
 list(songs)
+play(songs)
