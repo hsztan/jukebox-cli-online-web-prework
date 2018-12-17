@@ -44,8 +44,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
-  puts songs
+def run(songs)
   loop do
     puts "Please enter a command:"
     input = gets.chomp
@@ -66,4 +65,4 @@ end
 
 #list(songs)
 #play(songs)
-run
+run(songs)
