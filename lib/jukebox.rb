@@ -45,7 +45,6 @@ def exit_jukebox
 end
 
 def run
-  input = ""
   loop do
     puts "Please enter a command:"
     input = gets.chomp
