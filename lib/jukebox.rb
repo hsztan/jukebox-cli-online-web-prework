@@ -52,8 +52,9 @@ def run
     if input == "exit" {break}
   end
   exit_jukebox
-  
+
 end
 
-list(songs)
-play(songs)
+#list(songs)
+#play(songs)
+run
