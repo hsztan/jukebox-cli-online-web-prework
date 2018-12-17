@@ -27,10 +27,8 @@ def list(songs)
 end
 
 def play(songs)
-  id = ""
   puts "Please enter a song name or number:"
   id = gets.chomp
-  
   if songs.include?(id) || id.to_i <= songs.length
     if id.to_i == 0
       puts "Playing #{id}"
