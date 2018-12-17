@@ -47,7 +47,7 @@ end
 def run(songs)
   loop do
     puts "Please enter a command:"
-    input = gets.chomp
+    input = gets.strip
     case input
       when "list"
         list(songs)
