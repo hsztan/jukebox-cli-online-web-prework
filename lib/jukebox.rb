@@ -60,5 +60,6 @@ def run(songs)
         return
     end
   end
-
 end
+
+run(songs)
